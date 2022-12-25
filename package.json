@@ -1,0 +1,12 @@
+{
+	"dependencies": {
+		"@types/node": "^18.11.17",
+		"chalk": "4.1.2",
+		"enmap": "^5.9.5"
+	},
+	"scripts": {
+		"build": "tsc && node src/parsing/parser.js",
+		"run": "tsc && node examples/index.js",
+		"dev": "pnpm build && pnpm run"
+	}
+}

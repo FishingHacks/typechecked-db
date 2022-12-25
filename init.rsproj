@@ -1,0 +1,12 @@
+--dbgprint: true
+@git/fetch, @install/node, @init/typescript
+
+[@git/fetch]
+repository: git@github.com:FishingHacks/typechecked-db.git
+branch: main
+
+[@install/node]
+packages: chalk@4.1.2, @types/node
+packageManager: pnpm
+
+[@init/typescript]

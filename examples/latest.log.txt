@@ -1,0 +1,108 @@
+/*[12/25/2022, 12:18:02 AM]*/ a.user.clear();
+
+/*[12/25/2022, 12:18:02 AM]*/ a.post.clear();
+
+/*[12/25/2022, 12:18:02 AM]*/ a.post.create({
+  "createdAt": "2022-12-24T23:18:02.976Z",
+  "published": true,
+  "title": "a",
+  "updatedAt": "2022-12-24T23:18:02.976Z"
+});
+
+/*[12/25/2022, 12:18:02 AM]*/ a.post.create({
+  "createdAt": "2022-12-24T23:18:02.976Z",
+  "title": "aa",
+  "updatedAt": "2022-12-24T23:18:02.976Z"
+});
+
+/*[12/25/2022, 12:18:02 AM]*/ a.post.create({
+  "createdAt": "2022-12-24T23:18:02.976Z",
+  "published": true,
+  "title": "aaa",
+  "updatedAt": "2022-12-24T23:18:02.976Z"
+});
+
+/*[12/25/2022, 12:18:03 AM]*/ a.user.create({
+  "email": "fishinghacks@proton.me",
+  "name": "Fishi"
+});
+
+/*[12/25/2022, 12:18:03 AM]*/ a.user.update({
+  "id": 3
+}, {
+  "email": "",
+  "name": ""
+});
+
+/*[12/25/2022, 1:25:11 AM]*/ a.user.clear();
+
+/*[12/25/2022, 1:25:11 AM]*/ a.post.clear();
+
+/*[12/25/2022, 1:25:11 AM]*/ a.post.create({
+  "createdAt": "2022-12-25T00:25:11.792Z",
+  "published": true,
+  "title": "a",
+  "updatedAt": "2022-12-25T00:25:11.792Z"
+});
+
+/*[12/25/2022, 1:25:11 AM]*/ a.post.create({
+  "createdAt": "2022-12-25T00:25:11.792Z",
+  "title": "aa",
+  "updatedAt": "2022-12-25T00:25:11.792Z"
+});
+
+/*[12/25/2022, 1:25:11 AM]*/ a.post.create({
+  "createdAt": "2022-12-25T00:25:11.792Z",
+  "published": true,
+  "title": "aaa",
+  "updatedAt": "2022-12-25T00:25:11.792Z"
+});
+
+/*[12/25/2022, 1:25:11 AM]*/ a.user.create({
+  "email": "fishinghacks@proton.me",
+  "name": "Fishi"
+});
+
+/*[12/25/2022, 1:25:11 AM]*/ a.user.update({
+  "id": 3
+}, {
+  "email": "",
+  "name": ""
+});
+
+/*[12/25/2022, 1:25:23 AM]*/ a.user.clear();
+
+/*[12/25/2022, 1:25:23 AM]*/ a.post.clear();
+
+/*[12/25/2022, 1:25:23 AM]*/ a.post.create({
+  "createdAt": "2022-12-25T00:25:23.302Z",
+  "published": true,
+  "title": "a",
+  "updatedAt": "2022-12-25T00:25:23.302Z"
+});
+
+/*[12/25/2022, 1:25:23 AM]*/ a.post.create({
+  "createdAt": "2022-12-25T00:25:23.302Z",
+  "title": "aa",
+  "updatedAt": "2022-12-25T00:25:23.302Z"
+});
+
+/*[12/25/2022, 1:25:23 AM]*/ a.post.create({
+  "createdAt": "2022-12-25T00:25:23.302Z",
+  "published": true,
+  "title": "aaa",
+  "updatedAt": "2022-12-25T00:25:23.302Z"
+});
+
+/*[12/25/2022, 1:25:23 AM]*/ a.user.create({
+  "email": "fishinghacks@proton.me",
+  "name": "Fishi"
+});
+
+/*[12/25/2022, 1:25:23 AM]*/ a.user.update({
+  "id": 3
+}, {
+  "email": "",
+  "name": ""
+});
+

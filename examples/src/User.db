@@ -1,0 +1,17 @@
+datasource db {
+  provider: "enmap"
+}
+
+model User {
+  id: ObjectId @id @default<autoincrement>
+  createdAt: DateTime @default<now>
+  email: String @unique
+  name: String @optional
+  role: Role @default<"USER">
+  posts: Reference<Post> @array
+}
+
+enum Role {
+  USER
+  ADMIN
+}

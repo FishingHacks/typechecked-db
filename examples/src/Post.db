@@ -1,0 +1,8 @@
+model Post {
+  id: objectid @id @default<autoincrement>
+  createdAt: DateTime @default<now>
+  updatedAt: DateTime @updatedAt
+  published: Boolean @default<false>
+  title: String @charCode<255>
+  author: Reference<User> @optional
+}
